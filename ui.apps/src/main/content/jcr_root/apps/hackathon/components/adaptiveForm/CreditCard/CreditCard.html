@@ -1,0 +1,9 @@
+<sly data-sly-use.model="com.hackathon.core.models.Creditcard"> </sly>
+<div class="CreditCard">
+    <h2 class="CreditCard__header"> ${model.title} </h2>
+    <h4 class="CreditCard__description">${model.componentDescription}</h4> <label
+        for="creditCardNumber">${model.creditCardLabel}</label> <input type="text" id="creditCardNumber"
+        name="creditCardNumber"> <label for="cvv">Enter your CVV:</label> <input type="text" id="cvv" name="cvv"> <label
+        for="expiryDate">Enter Expiry Date:</label> <input type="text" id="expiryDate" name="expiryDate"
+        placeholder="MM/yyyy">
+</div>
