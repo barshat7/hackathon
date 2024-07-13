@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/hackathon" mode="merge"/>
+    <filter root="/content/hackathon" mode="merge"/>
+    <filter root="/content/dam/hackathon" mode="merge">
+        <exclude pattern="/content/dam/hackathon(/.*)?"/>
+        <include pattern="/content/dam/hackathon/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/hackathon/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/hackathon" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/hackathon" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/hackathon" mode="merge"/>
+    <filter root="/content/dam/hackathon/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/hackathon/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/hackathon/wknd_logo.png" mode="merge"/>
+</workspaceFilter>
